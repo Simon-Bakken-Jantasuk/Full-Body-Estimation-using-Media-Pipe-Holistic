@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 opencv-python = "*"
 mediapipe = "==0.10.0"
-mtcnn = "*"
 [dev-packages]
 
 [requires]

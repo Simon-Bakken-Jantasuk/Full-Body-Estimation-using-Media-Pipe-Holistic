@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "14875c66eea1dc41cacbbde839d0f246b9c8eb888deab5fe6e4c556ec0705b52"
+            "sha256": "38fa8a113d295ad48ad2ae9f481daef42ea008439dae6f1f8c96e8ac5e210246"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -201,13 +201,13 @@
             "markers": "python_version >= '3.8'",
             "version": "==4.41.0"
         },
-        "keras": {
+        "importlib-resources": {
             "hashes": [
-                "sha256:5ce5f706f779fa7330e63632f327b75ce38144a120376b2ae1917c00fa6136af",
-                "sha256:5df12cc241a015a11b65ddb452c0eeb2744fce21d9b54ba48db87492568ccc68"
+                "sha256:4cf94875a8368bd89531a756df9a9ebe1f150e0f885030b461237bc7f2d905f2",
+                "sha256:d952faee11004c045f785bb5636e8f885bed30dc3c940d5d42798a2a4541c185"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==2.13.1"
+            "markers": "python_version < '3.10'",
+            "version": "==6.0.0"
         },
         "kiwisolver": {
             "hashes": [
@@ -346,14 +346,6 @@
             ],
             "index": "pypi",
             "version": "==0.10.0"
-        },
-        "mtcnn": {
-            "hashes": [
-                "sha256:d0957274584be62cb83d4a089041f8ee3cf3b1893e45f01ed3356f94a381302b",
-                "sha256:fd69d2f4dd10647dd7481a53b9586e805f35a17c61ac78ba472a7f53766eb86e"
-            ],
-            "index": "pypi",
-            "version": "==0.1.1"
         },
         "numpy": {
             "hashes": [
@@ -551,6 +543,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==0.4.6"
+        },
+        "zipp": {
+            "hashes": [
+                "sha256:679e51dd4403591b2d6838a48de3d283f3d188412a9782faadf845f298736ba0",
+                "sha256:ebc15946aa78bd63458992fc81ec3b6f7b1e92d51c35e6de1c3804e73b799147"
+            ],
+            "markers": "python_version < '3.10'",
+            "version": "==3.16.2"
         }
     },
     "develop": {}
